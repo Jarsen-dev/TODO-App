@@ -1,0 +1,11 @@
+.todosCompleted {
+  display: flex;
+  width: 100%;
+}
+
+.arrow {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+  background: url('./angle-arrow-up.svg') no-repeat center center;
+}

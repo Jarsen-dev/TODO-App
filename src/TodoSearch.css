@@ -1,0 +1,19 @@
+.todoSearch {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.27);
+}
+
+.todoSearch::placeholder {
+  color: #A0A0A0;
+}
+
+.todoSearch:focus {
+  outline-color: #CF2804;
+  outline-style: solid;
+  outline-width: thin;
+}
