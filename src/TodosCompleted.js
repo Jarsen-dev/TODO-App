@@ -1,10 +1,11 @@
-import './TodosCompleted.css';
+import './TodoList.css';
 
 function TodosCompleted({ text }) {
   return (
-    <div className='todosCompleted'>
-      <p>{text} tareas completadas </p>
-      <div className='arrow'></div>
+    <div className='todoList'>
+      <input type='radio' checked></input>
+      <div className='icon todoList-icon--completed'></div>
+      <label className='todoList-label--completed'>{text}</label>
     </div>
   );
 }

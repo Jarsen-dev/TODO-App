@@ -2,13 +2,17 @@
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #F9F9F9;
+  background-color: white;
   box-sizing: border-box;
   margin-top: 20px;
   padding: 10px;
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.10);
+}
+
+.todoList-icon--completed {
+  opacity: 0.5;
 }
 
 input[type="radio"]:checked {
@@ -26,6 +30,11 @@ label {
   position: relative;
   top: 1px;
   left: 8px;
+}
+
+.todoList-label--completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 .icon2 {

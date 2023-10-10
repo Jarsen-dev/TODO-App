@@ -3,8 +3,8 @@ import { TodoSearch } from './TodoSearch';
 import { TodoList } from './TodoList';
 import { TodoTitle } from './TodoTitle';
 import { TodoTime } from './TodoTime';
+import { TodosCompletedToggle } from './TodosCompletedToggle';
 import { TodosCompleted } from './TodosCompleted';
-import React from 'react';
 
 const defaultTodos = [
   { text: 'Cortar cebolla', completed: true },
@@ -15,9 +15,9 @@ const defaultTodos = [
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <TodoTitle />
-      <TodoCounter timer={0} total={0} completed={0}/>
+      <TodoCounter timer={15} total={0} completed={0}/>
       <TodoSearch />
       <TodoTime time={0}/>
 
@@ -29,8 +29,9 @@ function App() {
         ))}
       </>
 
-      <TodosCompleted text={'Mostrar'}/>
-    </React.Fragment>
+      <TodosCompletedToggle text={'Mostrar'} icon={'▲▼'}/>
+      <TodosCompleted text={'Cortar cebolla'}/>
+    </>
   );
 }
 

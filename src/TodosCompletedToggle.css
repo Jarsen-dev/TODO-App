@@ -1,0 +1,15 @@
+.todosCompletedToggle {
+  display: flex;
+  width: 220px;
+  margin: 30px auto 0;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.todosCompletedToggle p {
+  margin: 2px;
+  font-size: small;
+}

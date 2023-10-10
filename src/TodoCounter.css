@@ -14,13 +14,20 @@
   margin-top: 15px;
 }
 
-
-.todoCounterIntern span {
-  color: #CF2804;
+.todoCounterInternP {
+  margin: 0;
   text-align: center;
 }
 
-.todoCounterIntern p {
+
+.todoCounterIntern span {
+  font-family: 'Oswald', sans-serif;
+  color: #CF2804;
+  text-align: center;
+  font-size: 40px;
+}
+
+.todoCounterInternText {
   color: #A0A0A0;
   margin-top: 10px;
 }
