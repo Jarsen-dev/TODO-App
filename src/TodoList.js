@@ -1,11 +1,14 @@
 import './TodoList.css';
 
-function TodoList({ text }) {
+function TodoList(props) {
   return (
     <div className='todoList'>
-      <input type='radio'></input>
+      <input 
+        type='radio' 
+        onClick={props.onComplete}
+      ></input>
       <div className='icon'></div>
-      <label>{text}</label>
+      <label>{props.text}</label>
       <div className='icon2'></div>
     </div>
   );

@@ -6,6 +6,7 @@ function TodosCompleted({ text }) {
       <input type='radio' checked></input>
       <div className='icon todoList-icon--completed'></div>
       <label className='todoList-label--completed'>{text}</label>
+      <div className='icon2'></div>
     </div>
   );
 }

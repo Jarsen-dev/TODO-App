@@ -1,8 +1,8 @@
 import './TodoTime.css';
 
-function TodoTime({ time }) {
+function TodoTime() {
   return (
-    <p className='todoTime'>Tareas · <span>{time}</span> min</p>
+    <p className='todoTime'>Tareas</p>
   );
 }
 
